@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Галерея животных</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body class="page">
+    <header class="page__header header">
+      <h1 class="header__title">Галерея</h1>
+      <button class="button button_type_primary" id="load-images-button">
+        Загрузить картинки
+      </button>
+    </header>
+
+    <main class="page__content">
+      <section class="gallery">
+        <div class="gallery__loader" id="gallery-loader" aria-hidden="true">
+          <div class="loader">
+            <div class="loader__spinner"></div>
+          </div>
+        </div>
+        <div class="gallery__grid" id="gallery-grid"></div>
+        <p class="gallery__error" id="gallery-error" aria-live="assertive"></p>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
+
