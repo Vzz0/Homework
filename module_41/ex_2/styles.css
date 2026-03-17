@@ -1,0 +1,17 @@
+body {
+  margin: 24px;
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+
+.button {
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1px solid #d6d6d6;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #f6f6f6;
+}
+

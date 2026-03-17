@@ -1,5 +1,3 @@
-'use strict';
-
 const DOGS_API_URL = 'https://dog.ceo/api/breeds/image/random/20';
 
 const galleryGridElement = document.getElementById('gallery-grid');

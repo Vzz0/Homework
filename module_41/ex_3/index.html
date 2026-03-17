@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Задание 3 — Чат</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="chat">
+      <form class="chat__controls" id="chat-form">
+        <input class="chat__input" id="chat-input" type="text" placeholder="Здесь вводится текст сообщения" autocomplete="off" />
+        <button class="chat__button" id="send-button" type="submit">Отправить</button>
+        <button class="chat__button" id="geo-button" type="button">Гео-локация</button>
+      </form>
+
+      <section class="chat__dialog" id="chat-dialog" aria-label="Окно переписки"></section>
+    </main>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
+

@@ -1,0 +1,30 @@
+body {
+  margin: 24px;
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+
+.icon-button {
+  width: 52px;
+  height: 52px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: 1px solid #d6d6d6;
+  border-radius: 10px;
+  background-color: #ffffff;
+  color: #222222;
+}
+
+.icon-button:hover {
+  background-color: #f6f6f6;
+}
+
+.icon-button__icon {
+  display: none;
+}
+
+.icon-button__icon_visible {
+  display: block;
+}
+

@@ -1,0 +1,88 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 24px;
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  background-color: #ffffff;
+  color: #222222;
+}
+
+.chat {
+  max-width: 640px;
+}
+
+.chat__controls {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.chat__input {
+  height: 36px;
+  padding: 0 10px;
+  border: 2px solid #b9d6ee;
+  border-radius: 2px;
+  outline: none;
+}
+
+.chat__input:focus {
+  border-color: #7db6e6;
+}
+
+.chat__button {
+  height: 36px;
+  padding: 0 14px;
+  border: 2px solid #b9d6ee;
+  border-radius: 2px;
+  background-color: #d7eaf9;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.chat__button:hover {
+  background-color: #c7e1f7;
+}
+
+.chat__button:disabled {
+  opacity: 0.6;
+  cursor: progress;
+}
+
+.chat__dialog {
+  min-height: 320px;
+  border: 3px solid #b9d6ee;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.chat__message {
+  max-width: 70%;
+  padding: 10px 12px;
+  border: 2px solid #b9d6ee;
+  border-radius: 10px;
+  background-color: #ffffff;
+  line-height: 1.25;
+  word-break: break-word;
+}
+
+.chat__message_type_out {
+  align-self: flex-end;
+}
+
+.chat__message_type_in {
+  align-self: flex-start;
+}
+
+.chat__link {
+  color: #1463a5;
+  text-decoration: underline;
+}
+
